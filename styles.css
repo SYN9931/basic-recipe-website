@@ -1,0 +1,24 @@
+/*landing page*/
+
+* {
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-size: 22px;
+}
+
+.header{
+    background-color: rgb(245, 222, 179);
+    font-weight: 400;
+}
+
+.subheader{
+    color: rgb(214, 37, 67);
+    background-color: hwb(350 76% 0%);
+    font-weight: 800;
+    font-size: 32px;
+}
+
+img{
+    height: 450px;
+    width: auto;
+    
+}
