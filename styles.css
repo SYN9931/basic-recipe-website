@@ -6,8 +6,18 @@
 }
 
 .header{
-    background-color: rgb(245, 222, 179);
+    background-color: rgb(7, 148, 204);
+    color: white;
+    font-size: 32px;
     font-weight: 400;
+    text-align: center;
+    padding: 0.1em 0.1em;
+    margin-top: 0px;
+}
+
+body{
+    margin: auto;
+   
 }
 
 .subheader{
