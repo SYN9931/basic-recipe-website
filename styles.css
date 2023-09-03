@@ -1,34 +1,66 @@
-/*landing page*/
-
-* {
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
     font-family:Georgia, Times, 'Times New Roman', serif ;
-    font-size: 22px;
+    font-size: 1.25em;    
+     
 }
 
 .header{
-    background-color: rgb(7, 148, 204);
+    background-color: rgba(7, 148, 204, 0.87);
     color: white;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 800;
     text-align: center;
-    padding: 0.1em 0.1em;
+    padding: 0.5em;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-body{
-    margin: auto;
+
+.recipe-card {
+    background-color: #333;
+    padding: 1.25em;
+    color: white;
+    margin: 1em;
+    width: 400px;
+    
    
 }
+.columns {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* gap: 1em; */
+    display: flex;
+    flex: 1;
+    background-color: rgba(0, 255, 255, 0.39);
+    justify-content: center; 
+}
+p{
+    text-align: justify;
+}
 
+.link-style{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
 .subheader{
     color: rgb(214, 37, 67);
     background-color: hwb(350 76% 0%);
     font-weight: 800;
     font-size: 32px;
+    margin-top: 0px;    
 }
 
 img{
     height: 450px;
-    width: auto;
-    
+    width: 350px;
+    padding: 0.5em;
 }
